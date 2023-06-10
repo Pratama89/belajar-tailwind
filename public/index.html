@@ -18,11 +18,34 @@
             <a href="#home" class=" font-bold text-lg text-primary block py-6">Pharmadent</a>
           </div>
           <div class="flex items-center px-4">
-            <button id="hamberger" name="hamberger" type="button" class="block absolute right-4">
+            <button id="hamberger" name="hamberger" type="button" class="block absolute right-4 lg:hidden">
               <span class="hamberger-line transition duration-300 ease-in-out origin-top-left"></span>
               <span class="hamberger-line transition duration-300 ease-in-out"></span>
               <span class="hamberger-line transition duration-300 ease-in-out origin-bottom-left"></span>
             </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg lg:block rounded-lg max-w-[250px] w-full right-4 top-full  lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
+                </li>
+                <li class="group">
+                  <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                </li>
+                <li class="group">
+                  <a href="#pelanggan" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Pelanggan</a>
+                </li>
+                <li class="group">
+                  <a href="#produk" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Produk</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Hubungi Kami</a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
@@ -94,6 +117,35 @@
   </section>
 
   <!-- About Section End -->
+
+  <!-- Portfolio Section Start -->
+  <section id="porfolio" class="pt-32 pb-32 bg-slate-100">
+    <div class="container">
+
+      <div class="w-full px-4">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-primary mb-2">Porfolio</h4>
+          <h2 class="font-bold text-dark text-3xl mb-4">Produk Unggulan</h2>
+          <p class="font-medium text-secondary text-sm">Pharmadent Store adalah perusahaan yang bergerak sebagai distributor/importir alat Kesehatan dan alat Laboratorium, Seragam Medis dan Dental Supply. Kami menawarkan berbagai perlengkapan dan kebutuhan rumah sakit, klinik dan perorangan dengan standar terkini dengan harga yang kompetitif, tanpa kompromi pada kualitas.            
+          </p>
+        </div>
+      </div>
+
+      <div class="w-full px-4 flex flex-wrap justify-center">
+        <div class="mb-12 p-4 md:w-1/2">
+
+          <div class="mb-3">
+            <img src="img/portfolio/dental 1.jpg" alt="Instrument" class="rounded-md" width="60" height="30">
+          </div>
+
+          <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Instrument Dokter Gigi</h3>
+          <p class="font-medium text-base text-secondary">Menyediakan peralatan kedokteran gigi dan lab lengkap</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Portfolio Section End -->
 
 
   <script src="js/script.js"></script>
